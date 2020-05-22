@@ -1,3 +1,3 @@
-# swati-dontamsetti.github.io
+# Personal Portfolio
 
-website for this repp: https://github.com/swati-dontamsetti/Web-Design-Challenge
+Website: https://github.com/swati-dontamsetti

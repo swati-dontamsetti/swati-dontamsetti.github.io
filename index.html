@@ -1,97 +1,33 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-    <title>Bootstrap Visualization Dashboard</title>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swati Dontamsetti</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="index.html"><strong>Latitude</strong></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><h3>Swati Dontamsetti</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle btn-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" style="color: purple;" href="https://github.com/swati-dontamsetti">Github</a>
+              <a class="nav-item nav-link" style="color: purple;" href="https://www.linkedin.com/in/swati-dontamsetti/">LinkedIn</a>
+              <a class="nav-item nav-link dropdown-toggle" style="color: purple;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Deployed Projects
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="temp.html">Max Temperature</a>
-                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                <a class="dropdown-item" href="https://swati-dontamsetti.github.io/Web-Design-Challenge/">Web Design</a>
               </div>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link btn-info" href="comp.html">Comparisons<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-info" href="data.html">Data</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-    <br>
-    <div class='container'>
-    <div class="row">
-      <div class="col-md-8">
-        <header>
-            <h1>Summary: Latitude vs. X</h1>
-        </header>
-        <section id="introduction">
-            <img  id="main_fig" src="assets/images/equatorsign.png" alt="latitude" style="width:400px;height:250px;float:left">
-            <p> The purpose of this <a href='https://github.com/swati-dontamsetti/python-api-challenge' target="_blank">project</a> was
-                to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the
-                OpenWeatherMap API to assemble a dataset of over 500 cities.
-            </p>
-
-             <p> After assembling the dataset, we used Matplotlib to plot various aspects of a city's weather versus that city's latitude. Aspects
-                we looked at included: temperature, cloudiness, humidity, and wind speed. This site provides the source data and visualizations
-                created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-             </p>
-        </section>
-      </div>
-      
-      
-    <div class="col-md-4">
-        <header>
-            <h2>Visualizations</h2>
-        </header>
-        <div class="row">
-            <div class="col-xs-3 col-sm-3 col-md-6">
-                <img src="assets/images/1LatvTemp.png" alt="lat_temp" style="width:150px;height:150px;">
-            </div>
-                
-            <div class="col-xs-3 col-sm-3 col-md-6">
-                <img src="assets/images/2LatvHumid.png" alt="lat_humid" style="width:150px;height:150px;">
-            </div>
-
-            <div class="col-xs-3 col-sm-3 col-md-6">
-                <img   src="assets/images/3LatvCloud.png" alt="lat_cloud" style="width:150px;height:150px;">
-            </div>
-                
-            <div class="col-xs-3 col-sm-3 col-md-6">
-                <img  src="assets/images/4LatvWind.png" alt="lat_wind" style="width:150px;height:150px;">
-            </div>
-        </div>
-    </div>
-    </div>
-</div>
- 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-<footer class="page-footer font-small blue fixed-bottom">
-    <div class="footer-copyright text-center py-3">© 2020 Copyright: Swati Dontamsetti</div>  
-</footer>
+          </div>
+    </nav>
 
 </body>
-
 </html>

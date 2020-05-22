@@ -1,0 +1,12 @@
+nav {
+    background-color: rgb(156, 232, 252);
+}
+
+h3 {
+    color: rgb(231, 2, 143);
+}
+
+.nav-link {
+    font-weight: bold;
+    color: blue;
+}

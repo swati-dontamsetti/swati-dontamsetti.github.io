@@ -33,6 +33,7 @@ body {
     margin-bottom: 10px;
     padding: 5px;
     background-color: seashell;
+    word-wrap: break-word;
 }
 
 #right {
@@ -51,7 +52,7 @@ i {
 }
 
 h4 {
-    color: rgb(0, 0, 214);
+    color: darkmagenta;
 }
 
 h5 {
@@ -59,9 +60,37 @@ h5 {
 }
 
 .check {
-    color: steelblue;
+    color: slateblue;
 }
 
-footer {
+.footer {
     background-color: rgb(156, 232, 252);
+    color: darkmagenta;
+    text-align: center;
+}
+
+.pubs {
+    text-indent: -10px;
+    color: rgb(0, 0, 214);
+}
+
+a {
+    color: blue;
+}
+
+.info {
+    color: slateblue;
+}
+
+.table {
+    color: slateblue;
+}
+
+.first {
+    text-align: center;
+    color: blue;
+}
+
+.card-body {
+    background-color: rgba(255, 245, 238, 0.726);
 }

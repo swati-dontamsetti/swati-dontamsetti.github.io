@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-Website: https://github.com/swati-dontamsetti
+Website: https://swati-dontamsetti.github.io/

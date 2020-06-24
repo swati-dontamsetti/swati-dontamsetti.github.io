@@ -58,6 +58,10 @@ h5 {
     color: rgb(0, 0, 214);
 }
 
+h5 > a {
+    color: rgb(0, 0, 214);
+}
+
 .check {
     color: slateblue;
 }

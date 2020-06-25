@@ -46,10 +46,6 @@ p {
     color: blue;
 }
 
-i {
-    color: steelblue;
-}
-
 h4 {
     color: darkmagenta;
 }
@@ -76,10 +72,6 @@ a {
 }
 
 .info {
-    color: slateblue;
-}
-
-.table {
     color: slateblue;
 }
 

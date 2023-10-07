@@ -1,0 +1,64 @@
+nav {
+    background-color: rgb(156, 232, 252);
+}
+
+h3 {
+    color: rgb(231, 2, 143);
+}
+
+body {
+    background-color: rgb(228, 249, 255);
+}
+
+#left {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: seashell;
+    word-wrap: break-word;
+}
+
+#right {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: seashell;
+}
+
+#inside {
+    justify-content: space-around;
+}
+
+p {
+    color: blue;
+}
+
+h4 {
+    color: darkmagenta;
+    background-color: lightblue;
+}
+
+h5 > a {
+    color: rgb(0, 0, 214);
+}
+
+h5 > a:hover {
+    color: rgb(0, 0, 214);
+    font-weight: bold;
+}
+
+.check {
+    color: slateblue;
+}
+
+a {
+    color: rgb(231, 2, 143);
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.info {
+    color: slateblue;
+}
